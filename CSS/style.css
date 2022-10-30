@@ -87,55 +87,30 @@ footer {
 }
 
 /* otras paginas */
-/* FUTBOL */
+
+/*-------------------- FUTBOL---------------------- */
+
+.imagenFutbol {width: 100%; height: auto;}
+
 h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkblue;
 text-align: center;
 background-color: gold;}
 
-.futbolCuadrouno {margin-top: 4px;
-    margin-left: 700px;
-    margin-right: 700px;
-    border: 3px solid black;
-border-radius: 4px;
-background-color: rgb(230, 207, 77);
-color: darkblue;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.subtituloUno {text-align: center;}
-.parrafoUno {text-align: center;}
-.imagenPrueba {padding: 100px; margin: 10px; float: right; width: 250px;
-max-width: 100%;}
-
-.futbolCuadrodos {
-    margin-top: 4px;
-    margin-left: 700px;
-    margin-right: 700px;
-    border: 3px solid black;
-border-radius: 4px;
-background-color: rgb(230, 207, 77);
-color: darkblue;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+.nuevoparrafoFutbol {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: darkblue;
+    margin-top: 10px;
+    background-color: gold;
 }
 
-.subtituloDos {text-align: center;}
-.parrafoDos {text-align: center;}
 
-.futbolConcentrados {
-    margin-top: 10px;
-    margin-left: 1500px;
-    margin-right: 10px;
-    margin-bottom: 100;
-    border: 3px solid black;
-border-radius: 4px;
-background-color: rgb(230, 207, 77);
-color: black;
-text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.listaConcentrados {text-align: justify;}
-
-/*NO PUDE PONER LISTA CONCETRADOS DEL LADO DERECHO A LA PAR DE LOS OTROS CUADROS*/
-
+/* .subtituloDos {text-align: center;}
+.parrafoDos {text-align: center;} */
 
 /* --------------------- BASQUET------------------*/
 
@@ -152,7 +127,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
 }
 
 
-.nuevoCuadrobasquet {
+.nuevoCuadro {
     border: 3px solid black;
     border-radius: 4px;
     background-color: rgb(230, 207, 77);
@@ -172,7 +147,7 @@ text-align: center;
 font-weight: bold;
 font-size: 20px;}
 
-.nuevoCuadrobasquetdos {
+.nuevoCuadrodos {
     border: 3px solid black;
     border-radius: 4px;
     background-color: rgb(230, 207, 77);
