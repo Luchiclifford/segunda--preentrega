@@ -1,17 +1,22 @@
 /* header */
 ul{display: flex;
     list-style:none;
-justify-content: center;}
-    
+    justify-content:center ;
 
+}
+
+
+    
 a { 
     text-decoration: none;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    text-shadow: 2px 5px 7px rgb(0, 0, 0);
     margin: 20px;
+    font-size: 20px;
     
-
+    
+    
 }
 
 h1 {
@@ -23,7 +28,10 @@ header {
     background-color: darkblue;
     text-align: center;
 }
-
+ nav {
+    background-color: darkblue;
+    padding: 1px;
+ }
 
 
 /*INICIO*/
@@ -35,10 +43,11 @@ header {
 
 body {
     background: linear-gradient(to right, #010a86,#eef10d,#010a86);
+    padding: auto;
 }
 
 body main {
-    background-color: white;
+    background-color: rgb(255, 253, 157);
 }
 
 
@@ -268,15 +277,14 @@ background-color: darkblue;
 border: solid gold;}
 
 .horarioPileta
-{margin-top: 4px;
-    margin-left:500px;
-    margin-right: 500px;
-    margin-bottom: 20px;
+{
     border: 3px solid black;
-border-radius: 4px;
-background-color: rgb(230, 207, 77);
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
 color: darkblue;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
 text-align: center;}
 
 /*Noticias*/
